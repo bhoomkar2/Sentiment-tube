@@ -5,8 +5,8 @@ from wordcloud import WordCloud, STOPWORDS
 import warnings
 
 # Suppress Streamlit warnings
-st.set_option('deprecation.showfileUploaderEncoding', False)
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showfileUploaderEncoding', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def pie_chart(df):
     """
